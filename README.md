@@ -1,6 +1,6 @@
 # Image Cropping Training Dataset Generator
 
-## 📁 Files Overview
+## Files Overview
 
 ### Essential Scripts
 - **`efficient_download.py`** - Downloads 100 sample images efficiently (no 30GB dataset needed)
@@ -16,7 +16,7 @@
 - **`my_100_images/`** - Downloaded good images (104 total)
 - **`bad_crops/`** - Generated bad crop versions
 
-## 🚀 Quick Usage
+## Quick Usage
 
 1. **Download 100 images:**
    ```bash
@@ -27,8 +27,3 @@
    ```bash
    python simple_bad_crop.py
    ```
-
-## 📊 Result
-- 104 good images in `my_100_images/`
-- 104 bad crops in `bad_crops/` (with "Badcrop" prefix)
-- Ready for training a crop quality classifier!
